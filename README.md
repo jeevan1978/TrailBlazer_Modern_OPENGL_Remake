@@ -106,3 +106,5 @@ GameScene->HUD:msgRedrawTrigger_s
 
 ## Rigid Body Physics
 The game physics were realized using the provided `rigidbody` component (which also features a separate `Vector3D_s` type, despite that the project features GLM, so this small API has no external dependencies). It can be also used in other projects, but maybe it's too minimal, as it represents only a single particle, but it was enough for the game. Now I planning to develop another game where I might extend this API as well.
+#   T r a i l B l a z e r _ M o d e r n _ O P E N G L _ R e m a k e  
+ 
