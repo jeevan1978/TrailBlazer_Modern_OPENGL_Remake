@@ -15,7 +15,7 @@ This project started as a hands-on way to learn modern OpenGL and gradually evol
 
 ---
 
-## 🎯 **Raison d'être**
+##  **Raison d'être**
 
 As a software developer with 10+ years of experience (mainly computer vision and embedded systems), I wanted to dive into something completely different.
 Learning OpenGL in the context of a fully functional game turned out to be the perfect playground—combining:
@@ -30,7 +30,7 @@ What began as a “learn OpenGL” side project eventually grew into a passion p
 
 ---
 
-# 🚀 **Features**
+#  **Features**
 
 * Guide a rolling ball through **10 levels** suspended above planets of the Solar System
 * **Custom map format** with tooling for editing or generating levels
@@ -42,16 +42,16 @@ What began as a “learn OpenGL” side project eventually grew into a passion p
 
 ---
 
-# ⚡ Quick Start
+#  Quick Start
 
 If you just want to try the game:
 
-📦 **Download the Windows x64 builds from the Releases page**
+ **Download the Windows x64 builds from the Releases page**
 The game was developed on Ubuntu 20.04, but Windows binaries are available for convenience.
 
 ---
 
-# 🛠️ Building From Source
+#  Building From Source
 
 ### **Dependencies**
 
@@ -79,7 +79,7 @@ make -j
 
 ---
 
-# 🎮 Game Instructions
+#  Game Instructions
 
 * Move Left/Right → **Arrow Keys** or **A / D**
 * Jump → **SPACE** or **Left CTRL**
@@ -93,14 +93,14 @@ Clearing a stage grants **one extra life**.
 
 ---
 
-# 🔧 Reusable Components
+#  Reusable Components
 
 This project contains several standalone C++ components licensed under **The Unlicense**.
 They can be freely reused in any project.
 
 ---
 
-## 🎨 **GLKit — Modern C++ OpenGL Wrapper**
+##  **GLKit — Modern C++ OpenGL Wrapper**
 
 A modular, type-safe wrapper around OpenGL, designed for RAII correctness and ease of use.
 
@@ -124,7 +124,7 @@ Type-safe uniform handling using C++20 templates and lambdas.
 
 ---
 
-## 🔄 **State Machine (single-header)**
+##  **State Machine (single-header)**
 
 A minimal, elegant state-machine API created to replace complex nested `if`-chains inside the game's logic.
 
@@ -140,7 +140,7 @@ The game’s entire state management is now expressed as **11 calls to `addTrans
 
 ---
 
-## 📬 **Messaging System — Observer Pattern with Modern C++**
+##  **Messaging System — Observer Pattern with Modern C++**
 
 The messaging component is the backbone of the game loop.
 It implements a decoupled, event-driven architecture using templates and `std::any`.
@@ -165,7 +165,7 @@ This infrastructure drives everything from input handling to redraw triggers.
 
 ---
 
-## 🧬 **Message Flow Diagram**
+##  **Message Flow Diagram**
 
 ```mermaid
 sequenceDiagram
@@ -219,7 +219,7 @@ sequenceDiagram
 
 ---
 
-## ⚙️ **Rigid Body Physics**
+##  **Rigid Body Physics**
 
 A tiny, dependency-free physics module located in `rigidbody/`.
 Includes:
@@ -232,10 +232,11 @@ I’m planning to expand it for future projects.
 
 ---
 
-# 🌌 TrailBlazer_Modern_OPENGL_Remake
+#  TrailBlazer_Modern_OPENGL_Remake
 
 A modern tribute to a legendary classic, rebuilt using clean, reusable C++20 architecture and real-time OpenGL rendering.
 
 ---
+
 
 
